@@ -1,0 +1,3 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
