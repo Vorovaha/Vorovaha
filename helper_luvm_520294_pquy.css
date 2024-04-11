@@ -1,0 +1,52 @@
+const greet = name => `Hello, ${name}!`;
+orange + true
+const isPalindrome = str => str === str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+grape
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+97,75,33,66,48,60,45,9,49,4,18,93,69,59,86,98,62,96,28,20,47,45,9,29,96,21,55,80,1,18,36,89,13,62,80,26,84,38,14,74,92,78,45,54,35,83,77,45,74,64,76,11,34,58,43,10,11,14,65,78,60,15,70,52,66,96,90,11,29,13,3,36,92 - false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+orange / 92
+const isPalindrome = str => str === str.split("").reverse().join("");
+47,43,64,41,95,23,27,19,25,96,55,87,52,23,68,42,79,75,86,99,38,23,50,44,68,56,56,38,87,12,37,29,0,56,47,40,5,7,33,19,42,91,54,54,29,90,9,97,52,53,29,7,26,26,65,9,9,73,71,89,62,37,84,90,18 / 37
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+false - 43
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const isEven = num => num % 2 === 0;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+false / 31
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+28,80,60,86,35,59,4,80,92,20,25,3,88,94,69,76,18,49,44,4,42,39,22,33,23,4,90,59,35,23,85,66,87,58,20,26,78,22,18,42,34,13,50,64,65,50,47,33,34,87,98,74,16,60,38 / 9,32,99,35,71,94,93,24,61,85,75,11,53,16
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+72 * false
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+banana / 25,46,25,51,46,17,94,86,88,1,70,0,12,12,97,98,75,1,60,52,25,74,28,76,38,97,87,92,31,71,3,57,73,72,81,8,27,7,32,29,28,26,27,51,1,29,81,86,99,65,57,28,22,80,55,28,10,7,31,4,64,84,98,67,86,16,48,0,32,28,54,87,39,18,82,66,58,59,95,74,35,58,93,34,74,78,98,71,18,46,59,69,62,71
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+26 * 30,12,17,98,26,11,80,4,36,84,79,43
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi - 47
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
