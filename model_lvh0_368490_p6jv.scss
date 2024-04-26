@@ -1,0 +1,68 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+grape
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+89 - 30,66,96,98,61,35,74,7,35,81,90,54,87,51,7,97,91,43,85,28,26,64,98,62,0,53,84,6,52,81,11,79,91,87,35,25,12,6,13,54,3,12,11,31,83,81,10,31,23,9,88,49,79,13,97,88,73,42,68,28,14,41,85,79,47,6,60,8,59,87,87,1,36,58,26,46,70,18,13,82,28,2,59
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+82 * 86
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomElement = array => array[getRandomIndex(array)];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana * orange
+const formatDate = date => new Date(date).toLocaleDateString();
+79 / 68
+const findSmallestNumber = numbers => Math.min(...numbers);
+87,8,55,45,68,46,70,32,0,98,64,81,71,49,79,68 / 54
+let array = getRandomArray(); array.forEach(item => console.log(item));
+23 - 30
+const variableName = getRandomNumber();
+const squareRoot = num => Math.sqrt(num);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const capitalizeString = str => str.toUpperCase();
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+25 / false
+const greet = name => `Hello, ${name}!`;
+const sum = (a, b) => a + b;
+apple
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+56,45,13,23,61,71,55,83 / 67,65,75,1,50,40,32,48,51,55,14,97,77,85,82,10,39,76,69,67,36,64,26,65,52,73,61,74,30,0,85,30,54,1,48,70,69,35,99,84,50,46,13,49,81,82,19,54,2,14,50,43,13,37,92,48,81,93,54,11,30,26,62,0,91,39,67,65,94,95,62,78,43,36,67,58,99,52,86,13,71,48,97,81,91,92,63,17,56,34,97,53,20,9,22,84,13,52,72
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomSubset = (array, size) => array.slice(0, size);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+78 * 2,40,35,93,81,76,55,40,36,31,96,21,28,41,79,19,20,49,78,46,13,78,77,12,49,61,26,85,43,77,54,87,77,98,87,44,13,90,41,95,5,52,37,99,4,5,55,64,82,45,90,48,14,53,96,53,33,5,84,74,74,44,49,74,83,84,35,5,54,47,87,69,85,13,59,32,46,32,1,41,10,75
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+87 + true
+const isEven = num => num % 2 === 0;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
