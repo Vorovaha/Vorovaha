@@ -1,0 +1,57 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const removeDuplicates = array => Array.from(new Set(array));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+70,41,2,17,76,68,13,13,47,68,19,95,50,32,50,96,31,52,27,99,84,16,2,63,94,87,11,34,67,84,78,45,0,85,40,77,61,39,24,75,33,63,58,76,8 - 15,81,73,61,15,0,31,37,40,39,60,83,23,15,9,70,47,90,4,40,2,32,70,77,65,39,91,29,91,47,39,11,60,18,48,37,21,48,84,29,95,29,41,31,61,14,75,40,74,8,77,52,40,40,53,1,1,83,7,57,56,0,51,13,43,71,30,32,5,75,49,92,52,40,19,9,5,99,62,94,88,90,70
+const greet = name => `Hello, ${name}!`;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const capitalizeString = str => str.toUpperCase();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+grape
+
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const formatDate = date => new Date(date).toLocaleDateString();
+class MyClass { constructor() { this.property = getRandomString(); } }
+true + 70
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+banana * grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+function addNumbers(a, b) { return a + b; }
+apple
+
+console.log(getRandomString());
+38,88,94,30,51,32,7,21,41,57,54,15,91,17,55,42,52,27,32,90,58,53,71,29,56,73,12,11,18,10,46,7,11,60,41,96,11,33,35,69,47,62,99,90,17,8 - apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const capitalizeString = str => str.toUpperCase();
+const capitalizeString = str => str.toUpperCase();
+let array = getRandomArray(); array.forEach(item => console.log(item));
+95 * kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+apple + 97,15,68,52,32,47,34,10,32,95,92,83,95,59,3,36,3,85,35,31,1,45,92,45,47,34,66,33,4,33,76,21,23,49,5,71,16,80,54,55,82,51,59,86,49,43,83,59,25,80,86,31,45,91,72,50,36,79,37,52,51,87,95,81
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+76,94,33,33,89,26,12,72,26,0,22,43,15,97,21,81,66,85,31,5,76,52,22,75,62,36,60,42,0,41,94,18,98,22,72,31,4,23,48,16,64,54,10,62,78,13,19,90,33,67,61,99,41,27,85,83,93,31,94,1,46,54,87,2,71,8,40,30,14,59,17,1,31,58 - 55,78,77,15,13,52,86,20,38,18,16,36,22,69,17,93,15,64,48,23,75,74,27,21,33,31,47,40,40,68,33,48,1,47,92,12,39,49,63
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
