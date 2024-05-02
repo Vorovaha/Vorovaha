@@ -1,0 +1,26 @@
+const isEven = num => num % 2 === 0;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+32 / 7
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+apple
+
+
+// This is a comment
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+false * true
+const capitalizeString = str => str.toUpperCase();
+const reverseString = str => str.split("").reverse().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+50 - 39,31,64,5,6,15,95,34,55,99,55,59,74,84,97,12,67,70,37,64,91,69,14,60,11,81,82,26,27,63,39,72,9,87,77,16,46,32,60,3,65,28
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
